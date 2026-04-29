@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 240" width="240" height="240">
+  <defs>
+    <clipPath id="globe-clip">
+      <circle cx="120" cy="120" r="95"/>
+    </clipPath>
+    <radialGradient id="shade" cx="35%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ff4d8d" stop-opacity="0.55"/>
+      <stop offset="55%" stop-color="#ff006e" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0d0014" stop-opacity="0.85"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#ff006e" stop-opacity="0.0"/>
+      <stop offset="85%" stop-color="#ff006e" stop-opacity="0.0"/>
+      <stop offset="100%" stop-color="#ff006e" stop-opacity="0.4"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="120" cy="120" r="110" fill="url(#glow)"/>
+  <circle cx="120" cy="120" r="95" fill="#1a0030"/>
+
+  <g clip-path="url(#globe-clip)">
+    <g>
+      <g fill="#ff006e" opacity="0.85">
+        <path d="M 20 80 Q 35 70 50 80 T 80 90 Q 90 100 75 110 T 50 105 Q 30 100 25 90 Z"/>
+        <path d="M 95 60 Q 115 55 135 65 Q 145 80 130 95 Q 110 100 100 85 Z"/>
+        <path d="M 60 130 Q 80 125 95 140 Q 100 160 85 170 Q 65 165 55 150 Z"/>
+        <path d="M 150 110 Q 175 105 185 125 Q 180 145 160 150 Q 145 135 148 120 Z"/>
+        <path d="M 200 75 Q 215 80 220 95 Q 215 105 200 100 Q 195 90 200 80 Z"/>
+        <path d="M 110 175 Q 130 170 145 185 Q 140 200 120 200 Q 105 190 108 180 Z"/>
+
+        <path d="M 260 80 Q 275 70 290 80 T 320 90 Q 330 100 315 110 T 290 105 Q 270 100 265 90 Z"/>
+        <path d="M 335 60 Q 355 55 375 65 Q 385 80 370 95 Q 350 100 340 85 Z"/>
+        <path d="M 300 130 Q 320 125 335 140 Q 340 160 325 170 Q 305 165 295 150 Z"/>
+        <path d="M 390 110 Q 415 105 425 125 Q 420 145 400 150 Q 385 135 388 120 Z"/>
+        <path d="M 440 75 Q 455 80 460 95 Q 455 105 440 100 Q 435 90 440 80 Z"/>
+        <path d="M 350 175 Q 370 170 385 185 Q 380 200 360 200 Q 345 190 348 180 Z"/>
+      </g>
+      <animateTransform attributeName="transform" type="translate"
+        values="0,0; -240,0" dur="9s" repeatCount="indefinite"/>
+    </g>
+  </g>
+
+  <g clip-path="url(#globe-clip)" stroke="#ffb3d9" stroke-width="0.6" fill="none" opacity="0.35">
+    <ellipse cx="120" cy="120" rx="95" ry="20"/>
+    <ellipse cx="120" cy="120" rx="95" ry="45"/>
+    <ellipse cx="120" cy="120" rx="95" ry="70"/>
+    <line x1="25" y1="120" x2="215" y2="120"/>
+  </g>
+
+  <circle cx="120" cy="120" r="95" fill="url(#shade)"/>
+  <circle cx="120" cy="120" r="95" fill="none" stroke="#ff006e" stroke-width="2"/>
+  <circle cx="120" cy="120" r="98" fill="none" stroke="#ff006e" stroke-width="0.5" opacity="0.6">
+    <animate attributeName="r" values="98;108;98" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;0;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>
