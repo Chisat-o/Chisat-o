@@ -16,7 +16,7 @@
 
 <div align="center">
 
-<img src="./assets/earth.svg" width="260" alt="rotating earth"/>
+<img src="./assets/earth.svg" width="360" alt="tracking globe"/>
 
 </div>
 
