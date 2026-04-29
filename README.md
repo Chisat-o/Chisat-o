@@ -1,4 +1,4 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d0014,50:ff006e,100:f72585&height=260&section=header&text=fabi&fontSize=85&fontColor=ffe0ec&animation=twinkling&fontAlignY=38&desc=・%20pink%20pilled%20・&descSize=18&descAlignY=58&descAlign=50)
+![header](https://capsule-render.vercel.app/api?type=waving&color=0:0d0014,50:ff006e,100:f72585&height=200&section=header&animation=twinkling)
 
 <div align="center">
 
@@ -29,16 +29,6 @@
 ║   ❤  ✦  ❤  ✦  ❤  ✦  ❤  ✦  ❤  ✦  ❤  ✦  ❤  ✦  ❤   ║
 ╚══════════════════════════════════════════════════════╝
 ```
-
-</div>
-
-<br>
-
-## ` ✿ S T A C K `
-
-<div align="center">
-
-![](https://skillicons.dev/icons?i=py,js,ts,react,html,css,nodejs,git,github,vscode,linux,bash&theme=dark)
 
 </div>
 
